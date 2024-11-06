@@ -1,0 +1,6 @@
+.step-item__seq-txt {
+    font-weight: var(--font-light);
+}
+.step-item__title {
+    font-weight: var(--font-bold);
+}
