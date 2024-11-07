@@ -29,7 +29,7 @@ function App() {
 						/>
 					))}
 				</div>
-				<div className="lg:flex-[3] md:flex-[2] max-md:bg-white rounded-lg lg:px-24 lg:pt-12 md:px-12 md:pt-8 md:pb-4 max-md:absolute max-md:top-32 max-md:mx-4 max-md:px-8 max-md:py-10">
+				<div className="lg:flex-[3] md:flex-[2] max-md:bg-white rounded-lg lg:px-24 lg:pt-12 md:px-8 md:pt-8 md:pb-4 max-md:absolute max-md:top-32 max-md:mx-4 max-md:px-8 max-md:py-10">
 					{step === 0 && (
 						<StepContent
 							title="Personal info"
@@ -86,6 +86,19 @@ function App() {
 					)}
 				</div>
 			</div>
+			<p className="absolute bottom-4 align-center text-xs max-md:hidden">
+				<a
+					className="text-blue-600 visited:text-purple-600 underline"
+					target="_blank"
+					href="https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ"
+				>
+					Front End Mentor
+				</a>{" "}
+				challenge, completed by{" "}
+				<a className="text-blue-600 visited:text-purple-600 underline" target="_blank" href="https://github.com/mk04-dev">
+					Dang Tuan Anh (MK04)
+				</a>
+			</p>
 		</div>
 	);
 }

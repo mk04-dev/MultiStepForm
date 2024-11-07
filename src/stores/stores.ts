@@ -6,9 +6,9 @@ class Store {
 	step: number = 0;
 
 	personalInfo = {
-		name: "MK04",
-		email: "tuananhmk04@gmail.com",
-		phoneNum: "+1 234 567 890",
+		name: "",
+		email: "",
+		phoneNum: "",
 	};
 	payment: PlaymentPlanType = "Monthly";
 	plan: Plan = PLANS[0];

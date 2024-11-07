@@ -62,7 +62,7 @@ export const LIST_ADD_ONS: AddOns[] = [
 	{
 		id: 2,
 		title: "Larger storage",
-		description: "Extra 1TB of could save",
+		description: "Extra 1TB of cloud save",
 		monthPrice: 2,
 		yearPrice: 20,
 	},

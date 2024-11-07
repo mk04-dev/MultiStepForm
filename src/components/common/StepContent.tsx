@@ -15,7 +15,7 @@ function StepContent(props: Props) {
 		<div className="flex flex-col gap-8 relative w-full h-full">
 			<div>
 				<h3 className="font-ubuntu-bold text-3xl mb-2 text-marine-blue">{title}</h3>
-				<p className="text-cool-gray font-ubuntu mb-6">{description}</p>
+				<p className="text-cool-gray font-ubuntu">{description}</p>
 			</div>
 			{children}
 			<div className="flex justify-between mt-auto max-md:fixed max-md:bottom-0 max-md:left-0 max-md:bg-white max-md:w-screen max-md:p-4">

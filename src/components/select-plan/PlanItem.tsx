@@ -13,7 +13,7 @@ function PlanItem(props: Props) {
 	return (
 		<div
 			onClick={() => setPlan(plan)}
-			className={`border cursor-pointer px-4 py-4 rounded-lg flex-1 flex max-md:items-center md:flex-col md:justify-between max-md:gap-4 ${
+			className={`border cursor-pointer px-4 py-4 rounded-lg flex-1 flex max-md:items-center md:flex-col md:justify-between max-md:gap-4 hover:border-purplish-blue ${
 				plan.id === selectedPlan.id ? "border-purplish-blue bg-alabaster" : "border-cool-gray/20"
 			}`}
 		>
