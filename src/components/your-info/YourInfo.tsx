@@ -60,7 +60,7 @@ const YourInfo = forwardRef(function YourInfo({}, ref: React.ForwardedRef<YourIn
 			setError((error) => ({ ...error, errorNm: true, errorNmTxt: "" }));
 			inValid = true;
 		}
-		return !inValid || isValidEmail() || isValidPhoneNum();
+		return !inValid && isValidEmail() && isValidPhoneNum();
 	};
 
 	return (
